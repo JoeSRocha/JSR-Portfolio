@@ -15,12 +15,12 @@ export default () => (
                             <h3>Rhythm</h3>
                             <p>LATEST WORK</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/latest"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('https://luskinconferencecenter.ucla.edu/wp-content/uploads/2018/03/Blog_Luskin.jpg')`}}>
                         <header className="major">
                             <h3>UCLA</h3>
-                            <p>DEVELOPMENT FOR CAMPUS</p>
+                            <p>DEVELOPMENT FOR THE CAMPUS</p>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
