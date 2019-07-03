@@ -8,10 +8,10 @@ const Menu = (props) => (
                 <li><Link href="/"><a><span onClick={props.onToggleMenu}>Home</span></a></Link></li>
                 <li><Link href="/latest"><a><span onClick={props.onToggleMenu}>Latest</span></a></Link></li>
                 <li><Link href="/ucla"><a><span onClick={props.onToggleMenu}>UCLA</span></a></Link></li>
-                <li><Link href="/elements"><a><span onClick={props.onToggleMenu}>Front-end Development</span></a></Link></li>
-                <li><Link href="/elements"><a><span onClick={props.onToggleMenu}>Back-end Development</span></a></Link></li>
-                <li><Link href="/elements"><a><span onClick={props.onToggleMenu}>DevOps</span></a></Link></li>
-                <li><Link href="/elements"><a><span onClick={props.onToggleMenu}>Previous Work</span></a></Link></li>
+                <li><Link href="/frontend"><a><span onClick={props.onToggleMenu}>Front-end Development</span></a></Link></li>
+                <li><Link href="/backend"><a><span onClick={props.onToggleMenu}>Back-end Development</span></a></Link></li>
+                <li><Link href="/devops"><a><span onClick={props.onToggleMenu}>DevOps</span></a></Link></li>
+                <li><Link href="/previous"><a><span onClick={props.onToggleMenu}>Previous Work</span></a></Link></li>
             </ul>
         </div>
         <a className="close" onClick={props.onToggleMenu} href="javascript:;">Close</a>
