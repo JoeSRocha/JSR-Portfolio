@@ -22,7 +22,7 @@ export default () => (
                             <h3>UCLA</h3>
                             <p>DEVELOPMENT FOR THE CAMPUS</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/ucla"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('https://static1.squarespace.com/static/58d20c79725e25b221549193/t/5aaa1e10652deaa430665e31/1521098260276/js.jpg')`}}>
                         <header className="major">
