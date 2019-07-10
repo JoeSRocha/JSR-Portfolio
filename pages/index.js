@@ -29,7 +29,7 @@ export default () => (
                             <h3>Front-end Development</h3>
                             <p>Snippets of style</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/frontend"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('https://wallpapercave.com/wp/wp1958111.jpg')`}}>
                         <header className="major">

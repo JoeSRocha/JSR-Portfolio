@@ -34,7 +34,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                                 <header className="major">
                                     <h3>Acura</h3>
                                 </header>
-                                <p>Working closely with Acura, I’ve helped the with the launch of their top vehicles through conquest pages and email newsletters. I’ve delivered assets tested to be compatible by over 40 plus platforms.</p>
+                                <p>Working closely with Acura, I’ve developed and launched their new vehicles navigation on Acura.com, as well as their conquest pages and email newsletters. I’ve delivered assets tested to be compatible by over 40 plus platforms.</p>
                                 <ul className="actions">
                                     <li><Link href="https://acura.com"><a className="button">VISIT</a></Link></li>
                                 </ul>
@@ -50,7 +50,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                                 <header className="major">
                                     <h3>Kaiser Permanente</h3>
                                 </header>
-                                <p>Kaiser Permanente gave me a chance to create a custom WordPress theme, which is fully editable on all elements, down to a mobile version in some instances. The template has now been used on over 30 variants of the page layout.</p>
+                                <p>I've developed a fully custom WordPress theme for Kaiser Permanente. Nearly all fields and elements are fully editable through the native backend. It also includes a mobile version option for assets and content. The template has now been used to create over 40 variants of the custom layout.</p>
                                 <ul className="actions">
                                     <li><Link href="https://scpmgphysiciancareers.com/"><a className="button">VISIT</a></Link></li>
                                 </ul>
@@ -66,7 +66,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                                 <header className="major">
                                     <h3>The Irvine Company</h3>
                                 </header>
-                                <p>Irvine Company has requested that we deliver a brochure site for their upcoming ‘Irvine Pacific’ community homes. Leveraging ASP.net CMS Umbraco, the site allows for a high-level of customization throughout. I’ve used Google Maps APIs, and numerous JS libraries to create a lightweight website that loads under a second on average.</p>
+                                <p>Irvine Company has requested that we deliver a brochure client site for their upcoming ‘Irvine Pacific’ community homes. Leveraging webpack, and node the site is blazing fast, despite the heavy usage of media assets. I’ve also used the Google Maps APIs, and numerous JS libraries to create the stylish look.</p>
                                 <ul className="actions">
                                     <li><Link href="https://www.irvinepacific.com/"><a className="button">VISIT</a></Link></li>
                                 </ul>

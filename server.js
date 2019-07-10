@@ -14,9 +14,10 @@ app.prepare().then(() => {
   server.use(bodyParser.json())
 
   server.post('/api/contact', (req, res) => {
-    const { name = '', email = '', message = '' } = req.body
+    console.log('test');
+    const { email = '', name = '', message = '' } = req.body
 
-    mailer({ email, name, message }).then(() => {
+    mailer({ email, name, text: message }).then(() => {
       console.log('success')
       res.send('success')
     }).catch((error) => {

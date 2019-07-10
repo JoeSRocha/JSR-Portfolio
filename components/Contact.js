@@ -7,8 +7,8 @@ class ControlledForm extends React.Component  {
         super(props);
         this.state = {
             contactData: {
-                name: '',
                 email: '',
+                name: '',
                 message: ''
             },
             submitted: false,
@@ -65,14 +65,13 @@ class ControlledForm extends React.Component  {
               ...prevState.contactData,
               [name]: value
             }
-          }),
-          () => console.log(this.state.contactData)
+          })
         );
       }
 
     handleSubmit(e) {
         e.preventDefault();
-        console.log( this.state.contactData );
+        if (!this.validEmail()) {alert('invalid email'); return};
         fetch('/api/contact', {
             method: 'post',
             headers: {
@@ -81,8 +80,15 @@ class ControlledForm extends React.Component  {
             },
             body: JSON.stringify(this.state.contactData)
           }).then((res) => {
+            console.log(res);
             res.status === 200 ? this.setState({ submitted: true }) : console.log('FAILED: ' + res.status);
-          })
+        })
+
+    }
+
+    validEmail() {
+        const emailSubmitted = this.state.contactData.email;
+        return /\S+@\S+\.\S+/.test(emailSubmitted);
     }
 
     render() {

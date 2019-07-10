@@ -11,7 +11,7 @@ const send = ({ email, name, text }) => {
   const from = name && email ? `${name} <${email}>` : `${name || email}`
   const message = {
     from,
-    to: 'kevin@thecouch.nyc',
+    to: 'joe.rocha@me.com',
     subject: `New message from ${from}`,
     text,
     replyTo: from
@@ -23,3 +23,5 @@ const send = ({ email, name, text }) => {
     )
   })
 }
+
+module.exports = send
