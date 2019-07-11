@@ -10,21 +10,21 @@ export default () => (
 
             <div id="main">
                 <section id="one" className="tiles">
-                    <article style={{backgroundImage: `url('https://render.fineartamerica.com/images/rendered/default/print/8.000/5.625/break/images/artworkimages/medium/1/honda-acura-nsx-2016-mixed-media-paul-meijering.jpg')`}}>
+                    <article style={{backgroundImage: `url('../static/images/nsx_mock.jpg')`}}>
                         <header className="major">
                             <h3>Rhythm</h3>
                             <p>LATEST WORK</p>
                         </header>
                         <Link href="/latest"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('https://luskinconferencecenter.ucla.edu/wp-content/uploads/2018/03/Blog_Luskin.jpg')`}}>
+                    <article style={{backgroundImage: `url('../static/images/UCLA_Luskin.jpg')`}}>
                         <header className="major">
                             <h3>UCLA</h3>
                             <p>DEVELOPMENT FOR THE CAMPUS</p>
                         </header>
                         <Link href="/ucla"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('https://static1.squarespace.com/static/58d20c79725e25b221549193/t/5aaa1e10652deaa430665e31/1521098260276/js.jpg')`}}>
+                    <article style={{backgroundImage: `url('../static/images/js.jpg')`}}>
                         <header className="major">
                             <h3>Front-end Development</h3>
                             <p>Snippets of style</p>
@@ -36,21 +36,21 @@ export default () => (
                             <h3>Back-end Development</h3>
                             <p>Mind your business logic</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/backend"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('https://aptira.com/wp-content/uploads/2016/09/BunnieCloudBG1.jpg')`}}>
                         <header className="major">
                             <h3>DevOps</h3>
                             <p>SSR FTW</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/devops"><a className="link primary"></a></Link>
                     </article>
                     <article style={{backgroundImage: `url('https://www.wallpaperup.com/uploads/wallpapers/2016/11/10/1037927/1690384e276351036272dae606213d40.jpg')`}}>
                         <header className="major">
                             <h3>Previous Work</h3>
                             <p>Decade of Deployments</p>
                         </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
+                        <Link href="/previous"><a className="link primary"></a></Link>
                     </article>
                 </section>
                 {/* <section id="two">

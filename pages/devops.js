@@ -6,15 +6,15 @@ import BannerLanding from '../components/BannerLanding'
 export default () => (
     <Layout>
         <Head>
-            <title>Joe Rocha's Development Front-end Skills</title>
-            <meta name="description" content="Joe Rocha's Front-end Skills." />
+            <title>Joe Rocha's Development Dev Ops Skills</title>
+            <meta name="description" content="Joe Rocha's Dev Ops Skills." />
         </Head>
 
         <div>
             <BannerLanding
-            title="Front-end Skills"
+            title="Dev Ops Skills"
             description={'Tech on Tech on Tech'}
-            bgImage="../static/images/js.jpg"
+            bgImage="../static/images/devops.jpg"
             colorOverlay="#000"
             />
 
@@ -38,10 +38,7 @@ export default () => (
                                 <header className="major">
                                     <h3>React, Styled Components, Material UI and more</h3>
                                 </header>
-                                <p>My current favorites, as you'll find that this site is built in React.
-                                With its power, I am able to rapidly build out reusable UI components in JSX and CSS-in-JS.
-                                Unidirectional data flows, integrated DevTools and auto optimization is just a few reasons I enjoy React.
-                                </p>
+                                <p>lorem epsum ewaweawe awef waef waefwaeff we</p>
                             </div>
                         </div>
                     </section>

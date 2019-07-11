@@ -9,10 +9,13 @@ export default () => (
         <Head>
             <title>Joe Rocha's Latest Development Work</title>
             <meta name="description" content="Joe Rocha's work for Rhythm." />
-        </Head>
+         </Head>
 
         <div>
-            <BannerLanding title="Rhythm" description={'Work provided for clients of the Rhythm Agency.'} />
+            <BannerLanding title="Rhythm"
+            description={'Work provided for clients of the Rhythm Agency.'}
+            bgImage="../static/images/nsx_mock.jpg"
+            colorOverlay="#015571" />
 
             <div id="main">
                 <section id="one">

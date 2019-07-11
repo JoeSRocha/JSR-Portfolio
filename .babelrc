@@ -20,7 +20,14 @@
                     "scss$"
                 ]
             }
-        ]
+        ],
+        [
+            "inline-import-data-uri", {
+                "extensions": [
+                  ".jpg"
+                ]
+            }
+          ]
     ],
     "presets": [
         "next/babel"

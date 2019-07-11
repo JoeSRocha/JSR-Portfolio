@@ -12,7 +12,9 @@ export default () => (
         </Head>
 
         <div>
-            <BannerLanding title="UCLA" description={'Work provided for campus departments.'} />
+            <BannerLanding title="UCLA"
+            description={'Work provided for campus departments.'}
+            bgImage="../static/images/UCLA_Luskin.jpg" />
 
             <div id="main">
                 <section id="one">

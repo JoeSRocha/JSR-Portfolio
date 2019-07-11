@@ -14,8 +14,8 @@ export default () => (
             <BannerLanding
             title="Front-end Skills"
             description={'Tech on Tech on Tech'}
-            bgImage="../static/images/js.jpg"
-            colorOverlay="#000"
+            bgImage="../static/images/php.jpg"
+            colorOverlay="lightyellow"
             />
 
             <div id="main">
@@ -38,10 +38,7 @@ export default () => (
                                 <header className="major">
                                     <h3>React, Styled Components, Material UI and more</h3>
                                 </header>
-                                <p>My current favorites, as you'll find that this site is built in React.
-                                With its power, I am able to rapidly build out reusable UI components in JSX and CSS-in-JS.
-                                Unidirectional data flows, integrated DevTools and auto optimization is just a few reasons I enjoy React.
-                                </p>
+                                <p>lorem epsum ewaweawe awef waef waefwaeff we</p>
                             </div>
                         </div>
                     </section>
