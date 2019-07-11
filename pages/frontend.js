@@ -36,11 +36,12 @@ export default () => (
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>React, Styled Components, Material UI and more</h3>
+                                    <h3>React, CSS-in-JS, and State Management</h3>
                                 </header>
-                                <p>My current favorites, as you'll find that this site is built in React.
-                                With its power, I am able to rapidly build out reusable UI components in JSX and CSS-in-JS.
+                                <p>My current favorites, as you'll find that this site is built in React with styled components.
+                                With these libraries, I'm able to rapidly build out reusable UI components in JSX and CSS-in-JS.
                                 Unidirectional data flows, integrated DevTools and auto optimization is just a few reasons I enjoy React.
+                                Add a state management library like MobX or Redux and now we can build a large-scale React app.
                                 </p>
                             </div>
                         </div>
@@ -53,7 +54,7 @@ export default () => (
                                 <header className="major">
                                     <h3>ES6, Babel, and webpack</h3>
                                 </header>
-                                <p>As I’ve continued to go down the React rabbit hole, I learned to love ES6 with a Babel transpiler and Webpack. I also take advantage of JavaScript XML (JSX) for its clear, concise code. You may find some of my recent React projects on GitHub. One of my latest projects has brought webpack to the infamous WordPress template system, scoring a <b>98 score</b> on Google Page Speed!</p>
+                                <p>Want a blazing fast website that is compatible with all browser types? You're going to need Babel and webpack. This will allow us to leverage the latest features as well in ES6+. I've been scoring around <b>98 score</b> on Google Page Speed thanks to these tools!</p>
                             </div>
                         </div>
                     </section>
@@ -64,9 +65,11 @@ export default () => (
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>Everything else</h3>
+                                    <h3>Node & Everything else</h3>
                                 </header>
-                                <p>awefawefwaefwaefawefwaef</p>
+                                <p>Thanks to Node.js, JavaScript is no longer limited to the front-end. I've been using Node, Express and Next.JS to deliver sites like this one for the last few years.
+                                    Other tools that I enjoy leveraging, include NPM, Yarn, Gulp, Grunt, CSS3, HTML5 and more.
+                                </p>
                             </div>
                         </div>
                     </section>

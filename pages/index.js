@@ -45,7 +45,7 @@ export default () => (
                         </header>
                         <Link href="/devops"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('https://www.wallpaperup.com/uploads/wallpapers/2016/11/10/1037927/1690384e276351036272dae606213d40.jpg')`}}>
+                    <article style={{backgroundImage: `url('../static/images/previous.jpg')`}}>
                         <header className="major">
                             <h3>Previous Work</h3>
                             <p>Decade of Deployments</p>

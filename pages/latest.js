@@ -23,7 +23,7 @@ export default () => (
                         <header className="major">
                             <h2>Client Work</h2>
                         </header>
-                        <p>I’ve developed and managed large-scale applications for our biggest clients:
+                        <p>I’ve developed and managed technical, large-scale applications for our biggest clients:
 Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                     </div>
                 </section>
@@ -37,7 +37,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                                 <header className="major">
                                     <h3>Acura</h3>
                                 </header>
-                                <p>Working closely with Acura, I’ve developed and launched their new vehicles navigation on Acura.com, as well as their conquest pages and email newsletters. I’ve delivered assets tested to be compatible by over 40 plus platforms.</p>
+                                <p>Working closely with Acura, I’ve developed and launched their new vehicles navigation on <b>Acura.com</b>, as well as their conquest pages and email newsletters. I’ve delivered assets tested to be compatible by over 40 plus platforms.</p>
                                 <ul className="actions">
                                     <li><Link href="https://acura.com"><a className="button">VISIT</a></Link></li>
                                 </ul>
@@ -69,7 +69,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                                 <header className="major">
                                     <h3>The Irvine Company</h3>
                                 </header>
-                                <p>Irvine Company has requested that we deliver a brochure client site for their upcoming ‘Irvine Pacific’ community homes. Leveraging webpack, and node the site is blazing fast, despite the heavy usage of media assets. I’ve also used the Google Maps APIs, and numerous JS libraries to create the stylish look.</p>
+                                <p>Irvine Company had me deliver a brochure site for their ‘Irvine Pacific’ community homes. The site is blazing fast, thanks to webpack, and node. I’ve also used the Google Maps APIs, and numerous JS libraries to create the stylish look.</p>
                                 <ul className="actions">
                                     <li><Link href="https://www.irvinepacific.com/"><a className="button">VISIT</a></Link></li>
                                 </ul>
@@ -85,7 +85,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                                 <header className="major">
                                     <h3>Zo Skin Health</h3>
                                 </header>
-                                <p>Reaching over $100k in net sales daily in beauty products, Zo is one of our top clients. I am the lead developer of their Drupal site. The site not only handles the e-commerce portion, but much of the accounting of payments to doctor affiliates. This required a large amount of custom development calculators to take percentages of sales per quarter and provide varying metrics to different departments.</p>
+                                <p>Reaching over $100k in net daily sales of beauty products, Zo is one of our top clients. I am the lead developer of their Drupal site. The site not only handles the e-commerce portion, but much of the accounting of payments to doctor affiliates. This required a large amount of custom development calculators to take percentages of sales per quarter, and provide varying metrics to different departments.</p>
                                 <ul className="actions">
                                     <li><Link href="https://zoskinhealth.com/"><a className="button">VISIT</a></Link></li>
                                 </ul>
@@ -101,7 +101,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                                 <header className="major">
                                     <h3>Smart Stop</h3>
                                 </header>
-                                <p>With thousands of locations across the country, Smart Stop is one of the largest self storage corporations in the U.S. This massive database is managed and updated by me continually. I’ve inherited the project, running on CakePhp and MySQL, however we’ve started the redesign of their main e-commerce site with the .Net CMS, Umbraco</p>
+                                <p>With thousands of locations across the country, Smart Stop is one of the largest self storage corporations in the U.S. This massive database is managed and updated by me continually. I’ve inherited the project running on CakePhp and MySQL, however we’ve started the redesign of their main e-commerce site with the use of a React front-end.</p>
                                 <ul className="actions">
                                     <li><Link href="https://smartstopselfstorage.com/"><a className="button">VISIT</a></Link></li>
                                 </ul>

@@ -13,7 +13,7 @@ export default () => (
         <div>
             <BannerLanding
             title="Dev Ops Skills"
-            description={'Tech on Tech on Tech'}
+            description={'SSR FTW'}
             bgImage="../static/images/devops.jpg"
             colorOverlay="#000"
             />
@@ -32,38 +32,26 @@ export default () => (
 
 
                     <section>
-                        <a className="image"><img src="https://brainhub.eu/blog/wp-content/uploads/2018/06/react-libraries-javascript-professional-should-know-featured.png" alt="React" /></a>
+                        <a className="image"><img src="../static/images/Docker_AWS.jpg" alt="Docker AWS" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>React, Styled Components, Material UI and more</h3>
+                                    <h3>AWS and Docker</h3>
                                 </header>
-                                <p>lorem epsum ewaweawe awef waef waefwaeff we</p>
+                                <p>AWS services are used on majority of projects I've worked on. I've used services EC2, S3 Buckets, Lambda, RDS, LightSail, Route 53, and EBS.
+                                When working locally, I use Docker Containers exclusively.</p>
                             </div>
                         </div>
                     </section>
 
                     <section>
-                        <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2018/03/1_bYjqZBD5lKStDrMq8Tmoxg.png" alt="Acura Newsletter" /></a>
+                        <a className="image"><img src="../static/images/continuos_integration.png" alt="Continuous Integration" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
-                                    <h3>ES6, Babel, and webpack</h3>
+                                    <h3>Continuous Integration</h3>
                                 </header>
-                                <p>As I’ve continued to go down the React rabbit hole, I learned to love ES6 with a Babel transpiler and Webpack. I also take advantage of JavaScript XML (JSX) for its clear, concise code. You may find some of my recent React projects on GitHub. One of my latest projects has brought webpack to the infamous WordPress template system, scoring a <b>98 score</b> on Google Page Speed!</p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section>
-
-                        <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2018/03/1_L4TYDiuYB5-EK8SG2RjHHQ.png" alt="UCLA Campus" /></a>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Everything else</h3>
-                                </header>
-                                <p>awefawefwaefwaefawefwaef</p>
+                                <p>I've leveraged Continuous Integration through Travis CI and TeamCity. This streamlines my deployments with automated builds of regression unit testing and more.</p>
                             </div>
                         </div>
                     </section>
