@@ -4,6 +4,7 @@ const { parsed: localEnv } = require('dotenv').config()
 const webpack = require('webpack')
 
 module.exports = {
+  target: 'serverless',
   webpack: (config, { dev }) => {
     config.plugins.push(new webpack.EnvironmentPlugin(localEnv));
 
@@ -36,12 +37,4 @@ module.exports = {
     )
     return config
   },
-  // exportPathMap: function(defaultPathMap) {
-  //   return {
-  //     '/': { page: '/' },
-  //     '/landing': { page: '/landing' },
-  //     '/generic': { page: '/generic' },
-  //     '/landing': { page: '/landing' }
-  //   }
-  // }
 }
