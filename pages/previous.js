@@ -60,7 +60,7 @@ export default () => (
 
                     <section>
                         <Link href="https://commonkings.com/">
-                            <a className="image"><img src="../static/images/common_kings.jpg" alt="Common Kings" /></a>
+                            <a className="image"><img src="../static/images/commonkings.jpg" alt="Common Kings" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -78,7 +78,7 @@ export default () => (
 
                     <section>
                         <Link href="https://DiggityJr.com/">
-                            <a className="image"><img src="../static/images/DiggityJr.com_.png" alt="Diggity Jr" /></a>
+                            <a className="image"><img src="../static/images/Diggityjr.com_.png" alt="Diggity Jr" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
