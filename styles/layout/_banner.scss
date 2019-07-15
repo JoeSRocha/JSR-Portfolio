@@ -90,6 +90,9 @@
 					font-weight: _font(weight-bold);
 					letter-spacing: _font(letter-spacing-alt);
 					text-transform: uppercase;
+					@include breakpoint(medium) {
+						font-size: 1.75em;
+					}
 				}
 			}
 		}

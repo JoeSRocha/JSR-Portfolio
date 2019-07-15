@@ -43,7 +43,7 @@
 			overflow: auto;
 			text-align: center;
 			visibility: hidden;
-			width: 18em;
+			width: 50em;
 
 			> :first-child {
 				margin-top: _size(element-margin);
@@ -74,6 +74,9 @@
 						line-height: 4em;
 						text-decoration: none;
 						text-transform: uppercase;
+						@include breakpoint(medium) {
+							font-size: 2.9em;
+						}
 
 						> span {
 							display: block;

@@ -83,6 +83,11 @@
 					padding-right: 1.5em;
 				}
 
+				@include breakpoint(medium) {
+					font-size: 1.75em;
+					margin-top: 20px;
+				}
+
 				&.menu-link {
 					padding-right: 3.325em !important;
 
@@ -172,10 +177,17 @@
 						padding-right: 4em !important;
 
 						&:last-child {
-							padding-right: 4.5em !important;
+							padding-right: 3.2em !important;
 						}
 					}
 				}
+			}
+		}
+
+		@include breakpoint(medium) {
+			.logo {
+				margin-top: 20px;
+				font-size: 2.3em;
 			}
 		}
 

@@ -5,6 +5,7 @@ import Header from './Header'
 import Menu from './Menu'
 import Contact from './Contact'
 import Footer from './Footer'
+import { initGA, logPageView } from '../utils/analytics'
 
 class Layout extends React.Component {
     constructor(props) {
@@ -17,6 +18,13 @@ class Layout extends React.Component {
     }
 
     componentDidMount() {
+
+        if (!window.GA_INITIALIZED) {
+            initGA()
+            window.GA_INITIALIZED = true
+          }
+          logPageView()
+
         this.timeoutId = setTimeout(() => {
             this.setState({ loading: '' });
         }, 100);
