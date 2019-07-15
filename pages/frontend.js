@@ -48,7 +48,7 @@ export default () => (
                     </section>
 
                     <section>
-                        <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2018/03/1_bYjqZBD5lKStDrMq8Tmoxg.png" alt="Acura Newsletter" /></a>
+                        <a className="image"><img src="../static/images/babel.png" alt="Acura Newsletter" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">
@@ -61,7 +61,7 @@ export default () => (
 
                     <section>
 
-                        <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2018/03/1_L4TYDiuYB5-EK8SG2RjHHQ.png" alt="UCLA Campus" /></a>
+                        <a className="image"><img src="../static/images/node.png" alt="UCLA Campus" /></a>
                         <div className="content">
                             <div className="inner">
                                 <header className="major">

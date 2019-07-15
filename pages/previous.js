@@ -28,7 +28,7 @@ export default () => (
                 <section id="two" className="spotlights">
 
                     <section>
-                        <img className="image" src="https://adroitgraphics.com/wp-content/uploads/2017/09/WagedWar.jpg" alt="Waged War" />
+                        <img className="image" src="../static/images/WagedWar.jpg" alt="Waged War" />
                         <div className="content">
                             <div className="inner">
                                 <header className="major">

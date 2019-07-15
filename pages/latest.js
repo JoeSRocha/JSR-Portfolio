@@ -30,7 +30,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                 <section id="two" className="spotlights">
                     <section>
                         <Link href="https://acura.com">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2019/04/acura_dropdown.jpg" alt="Acura Newsletter" /></a>
+                            <a className="image"><img src="../static/images/acura_dropdown.jpg" alt="Acura Newsletter" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -46,7 +46,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                     </section>
                     <section>
                         <Link href="https://scpmgphysiciancareers.com/">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2018/10/Kaiser.jpg" alt="Kaiser Permanente" /></a>
+                            <a className="image"><img src="../static/images/Kaiser.jpg" alt="Kaiser Permanente" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -62,7 +62,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                     </section>
                     <section>
                         <Link href="https://www.irvinepacific.com/">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2018/10/Irvine-Company.jpg" alt="" /></a>
+                            <a className="image"><img src="../static/images/Irvine-Company.jpg" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -78,7 +78,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                     </section>
                     <section>
                         <Link href="https://zoskinhealth.com/">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2018/10/Zo-Skin.jpg" alt="Zo Skin" /></a>
+                            <a className="image"><img src="../static/images/Zo-Skin.jpg" alt="Zo Skin" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -94,7 +94,7 @@ Acura, Kaiser Permanente, Irvine Company, Smart Stop and more.</p>
                     </section>
                     <section>
                         <Link href="https://smartstopselfstorage.com/">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2018/10/SmartStop.jpg" alt="Smart Stop" /></a>
+                            <a className="image"><img src="../static/images/SmartStop.jpg" alt="Smart Stop" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">

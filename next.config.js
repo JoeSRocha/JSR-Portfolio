@@ -5,6 +5,17 @@ const webpack = require('webpack')
 
 module.exports = {
   target: 'serverless',
+  exportPathMap: function() {
+    return {
+      '/': { page: '/' },
+      '/latest': { page: '/latest' },
+      '/ucla': { page: '/ucla' },
+      '/frontend': { page: '/frontend' },
+      '/backend': { page: '/backend' },
+      '/devops': { page: '/devops' },
+      '/previous': { page: '/previous' }
+    };
+  },
   webpack: (config, { dev }) => {
     config.plugins.push(new webpack.EnvironmentPlugin(localEnv));
 

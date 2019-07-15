@@ -34,7 +34,7 @@ Languages: PHP, JavaScript, jQuery, MySQL, JSON/XML, HTML5, CSS3, Linux/Unix, RE
                 <section id="two" className="spotlights">
                     <section>
                         <Link href="https://idre.ucla.edu">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2016/05/idre_ucla.png" alt="Acura Newsletter" /></a>
+                            <a className="image"><img src="../static/images/idre_ucla.png" alt="IDRE UCLA" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -50,7 +50,7 @@ Languages: PHP, JavaScript, jQuery, MySQL, JSON/XML, HTML5, CSS3, Linux/Unix, RE
                     </section>
                     <section>
                         <Link href="http://privacy.ucla.edu">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2016/05/privacy_ucla.png" alt="UCLA Campus" /></a>
+                            <a className="image"><img src="../static/images/privacy_ucla.png" alt="UCLA Campus" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -65,7 +65,7 @@ Languages: PHP, JavaScript, jQuery, MySQL, JSON/XML, HTML5, CSS3, Linux/Unix, RE
                     </section>
                     <section>
                         <Link href="http://womenintech.ucla.edu/">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2016/05/wit_ucla.png" alt="" /></a>
+                            <a className="image"><img src="../static/images/wit_ucla.png" alt="" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -80,7 +80,7 @@ Languages: PHP, JavaScript, jQuery, MySQL, JSON/XML, HTML5, CSS3, Linux/Unix, RE
                     </section>
                     <section>
                         <Link href="http://picksc.idre.ucla.edu/">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2016/05/picksc_ucla.png" alt="UCLA PICKSC" /></a>
+                            <a className="image"><img src="../static/images/picksc_ucla.png" alt="UCLA PICKSC" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -95,7 +95,7 @@ Languages: PHP, JavaScript, jQuery, MySQL, JSON/XML, HTML5, CSS3, Linux/Unix, RE
                     </section>
                     <section>
                         <Link href="http://cdsc.ucla.edu/">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2016/05/cdsc_ucla.png" alt="Smart Stop" /></a>
+                            <a className="image"><img src="../static/images/cdsc_ucla.png" alt="CDSC" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
@@ -111,7 +111,7 @@ Languages: PHP, JavaScript, jQuery, MySQL, JSON/XML, HTML5, CSS3, Linux/Unix, RE
 
                     <section>
                         <Link href="https://www.hoffman2.idre.ucla.edu/">
-                            <a className="image"><img src="https://adroitgraphics.com/wp-content/uploads/2016/05/h2_site.jpg" alt="Smart Stop" /></a>
+                            <a className="image"><img src="../static/images/h2_site.jpg" alt="Smart Stop" /></a>
                         </Link>
                         <div className="content">
                             <div className="inner">
