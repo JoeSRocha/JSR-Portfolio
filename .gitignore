@@ -1,6 +1,9 @@
 # dependencies
 /node_modules
 
+# Out Dir for Static site
+/out
+
 # testing
 /coverage
 

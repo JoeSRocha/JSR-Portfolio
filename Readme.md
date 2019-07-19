@@ -20,4 +20,17 @@ $ npm run build
 
 // Deploy
 $ npm run start
+
+// Export before running $ now
+$ npm run export
+
+// Test Static
+$ cd out/
+$ serve -p 8080
+
+// Deploy
+$ now out
+// Deploy to prod (w/domain aliases)
+$ now out --target production
+
 ```
